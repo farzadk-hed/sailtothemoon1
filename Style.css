@@ -1,0 +1,339 @@
+body {
+    background-image:  url('/home/farzad/Desktop/New Folder/img/Untitled.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top center;
+    background-size: 65%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 9%;
+    font-family :'Courier New', Courier, monospace Impact;
+    font-size: 22px;
+    background: -webkit-linear-gradient(rgb(15, 15, 15), rgb(110, 110, 110));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+h1:hover{
+    background: transparent;
+    -webkit-background-clip:content-box;
+    background-clip: content-box;
+    -webkit-text-fill-color: rgb(10, 10, 10);
+}
+
+#hxParent {
+    max-width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.media{
+    display: inline-block;
+    text-align: left;
+    width: 42%;
+    height: 100%;
+    margin-top: 11%;
+    margin-left: 5%;
+}
+
+.medialink {
+text-decoration: none;
+font-size: 30px;
+color: rgb(126, 126, 126);
+font-family: 'Courier New', Courier, monospace;
+}
+.medialink:hover{
+    color: white;
+}
+.music{
+    display: inline-block;
+    text-align: right;
+    width: 47%;
+    height: 100%;
+    margin-top: 6%;
+    margin-right: 5% ;
+}
+
+.musiclink {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(126, 126, 126);
+    font-family: 'Courier New', Courier, monospace;
+    }
+    .musiclink:hover{
+        color: white;
+    }
+
+.intro {
+    background-color: rgb(10, 10, 10);
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    text-align: left, justify;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 19px;
+}
+.intro:hover{
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+.blog {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.blogbg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 10px 100px #000;
+}
+.BlogBoxParent{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.box1{
+    overflow: visible;
+    overflow-wrap:break-word;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-align: left;
+    background-color: rgb(10, 10, 10);
+    width: 275px;
+}
+.box1:hover{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    box-shadow: 10px 10px 1px #fff;
+}
+.box2{
+    overflow: visible;
+    overflow-wrap: break-word;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(10, 10, 10);
+    width: 275px;
+    box-align: center;
+}
+.box2:hover{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    box-shadow: 10px 10px 1px #fff;
+}
+.box3{
+    overflow: hidden;
+    overflow-wrap: break-word;
+    display: inline-block;
+    background-color: rgb(10, 10, 10);
+    width: 275px;
+    box-align:right;
+}
+.box3:hover{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    box-shadow: 10px 10px 1px #fff;
+}
+.box1img{
+    display: inline-block;
+    width:auto;
+    max-height: 40%;
+}
+.box1txt{
+    display: inline-block;
+    width: 90%;
+    padding-left: 15px;
+    max-height: 40%;
+    color: lightgray;
+}
+.box1text:hover{
+    color: white
+}
+.box2img{
+    display: inline-block;
+    width: 25%;
+    max-height: 40%;
+}
+.box2txt{
+    display: inline-block;
+    width: 90%;
+    padding-left: 15px;
+    max-height: 40%;
+    color: lightgray;
+}
+.box3img{
+    display: inline-block;
+    width: 25%;
+    max-height: 40%;
+}
+.box3txt{
+    display: inline-block;
+    width: 90%;
+    padding-left: 15px ;
+    max-height: 40%;
+    color: lightgray;
+}
+.footerclass{
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    opacity: 80%;
+    height: 50px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    border:rgb(126, 126, 126), 50px;
+}
+.social{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.hrefs{
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hrefs:hover{
+    color: white;
+    text-shadow: 10px;
+    font-weight:bold;
+    font-size: 19px;
+}
+.Email{
+    display: inline-block;
+    box-align: left;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+.emailTxt{
+    text-decoration: none;
+    color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.emailTxt:hover{
+    color: white;
+}
+.emailIcon{
+    display: inline-block;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.formdiv{
+    background-color: rgb(25, 25, 25);
+    margin-bottom: 100px;
+}
+.formclass{
+    width: fit-content;
+    align-content: center;
+    margin-left: 30%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px 5px 5px 5px;
+    border-color: darkgrey;
+}
+.formTitle{
+    font-weight: 600;
+    text-align: center;
+}
+.formname{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 250px;
+    background-color: darkgrey;
+    border: none;
+}
+.formmail{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 250px;
+    background-color: darkgrey;
+    border: none;
+}
+.formSubmit{
+    background-color: darkgrey;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-left: 39%;
+    margin-top: 40px;
+    padding: 12px 20px 12px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.formSubmit:hover{
+    background-color: rgb(25, 25, 25);
+    color: darkgrey;
+}
+.songReviews{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+    color: lightgray;
+}
+.slider {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+    margin-left: 33.3%;
+    background-color: darkgray;
+  }
+  .slides > div {
+    /* CURRENT way. */
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+  }
+  .slides > div:target {
+    transform: scale(0.8);
+  }
+  .slide {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+    color: black;
+  }
